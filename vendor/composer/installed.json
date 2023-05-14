@@ -1,0 +1,208 @@
+{
+    "packages": [
+        {
+            "name": "adhocore/env",
+            "version": "v0.1.0",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/php-env.git",
+                "reference": "be6eea4dd576dd3c272c1595982167e8d6bf82f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/php-env/zipball/be6eea4dd576dd3c272c1595982167e8d6bf82f5",
+                "reference": "be6eea4dd576dd3c272c1595982167e8d6bf82f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.5"
+            },
+            "time": "2020-01-09T16:23:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Ahc\\Env\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Environment variable loader and retriever for PHP",
+            "keywords": [
+                "env",
+                "env-loader",
+                "env-php"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/php-env/issues",
+                "source": "https://github.com/adhocore/php-env/tree/v0.1.0"
+            },
+            "install-path": "../adhocore/env"
+        },
+        {
+            "name": "rakit/validation",
+            "version": "v1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rakit/validation.git",
+                "reference": "ff003a35cdf5030a5f2482299f4c93f344a35b29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rakit/validation/zipball/ff003a35cdf5030a5f2482299f4c93f344a35b29",
+                "reference": "ff003a35cdf5030a5f2482299f4c93f344a35b29",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^6.5",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2020-08-27T05:07:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rakit\\Validation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Syifa",
+                    "email": "emsifa@gmail.com"
+                }
+            ],
+            "description": "PHP Laravel like standalone validation library",
+            "support": {
+                "issues": "https://github.com/rakit/validation/issues",
+                "source": "https://github.com/rakit/validation/tree/v1.4.0"
+            },
+            "install-path": "../rakit/validation"
+        },
+        {
+            "name": "steampixel/simple-php-router",
+            "version": "0.7.1",
+            "version_normalized": "0.7.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steampixel/simplePHPRouter.git",
+                "reference": "c996d75b34c2c6da45d4dc737f61c0ee8fed5d2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steampixel/simplePHPRouter/zipball/c996d75b34c2c6da45d4dc737f61c0ee8fed5d2b",
+                "reference": "c996d75b34c2c6da45d4dc737f61c0ee8fed5d2b",
+                "shasum": ""
+            },
+            "time": "2022-10-12T18:04:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Steampixel": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steampixel",
+                    "email": "info@steampixel.de",
+                    "homepage": "https://steampixel.de/"
+                },
+                {
+                    "name": "Maximilian Götz",
+                    "email": "contact@maxbits.net",
+                    "homepage": "https://www.maxbits.net/"
+                }
+            ],
+            "description": "This is a simple and small PHP router that can handle the whole url routing for your project.",
+            "support": {
+                "issues": "https://github.com/steampixel/simplePHPRouter/issues",
+                "source": "https://github.com/steampixel/simplePHPRouter/tree/0.7.1"
+            },
+            "install-path": "../steampixel/simple-php-router"
+        },
+        {
+            "name": "thingengineer/mysqli-database-class",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class.git",
+                "reference": "5159467ae081adbe96586e45e65a58c0fe7a32ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThingEngineer/PHP-MySQLi-Database-Class/zipball/5159467ae081adbe96586e45e65a58c0fe7a32ce",
+                "reference": "5159467ae081adbe96586e45e65a58c0fe7a32ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2022-09-13T15:42:11+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/thingengineer",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "support": {
+                "issues": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/issues",
+                "source": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/tree/master"
+            },
+            "install-path": "../thingengineer/mysqli-database-class"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
