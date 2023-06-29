@@ -7,5 +7,9 @@ use Steampixel\Route;
  */
 
 Route::add('/([a-z-0-9-]*)', function () {
-    include 'views/index.html';
+    include 'views/index.php';
+  });
+
+Route::add('/blog', function () {
+    include 'views/blog.php';
   });
